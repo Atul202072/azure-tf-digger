@@ -2,7 +2,7 @@ terraform {
   required_version = ">= 1.5.0"
 
   backend "azurerm" {
-    resource_group_name  = "rg-digger-demo"
+    resource_group_name  = "Cloud-Apex"
     storage_account_name = "cloudapex"
     container_name       = "digger-tf-statefile"
     key                  = "digger-demo.tfstate"
