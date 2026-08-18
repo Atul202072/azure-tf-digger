@@ -3,8 +3,8 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "rg-digger-demo"
-    storage_account_name = "YOUR_STORAGE_ACCOUNT"
-    container_name       = "tfstate"
+    storage_account_name = "cloudapex"
+    container_name       = "digger-tf-statefile"
     key                  = "digger-demo.tfstate"
   }
 
